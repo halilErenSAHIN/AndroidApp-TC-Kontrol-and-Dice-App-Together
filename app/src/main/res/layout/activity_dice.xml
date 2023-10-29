@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/const0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiceActivity">
+
+    <TableLayout
+        android:id="@+id/row0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_d6"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/dice_6"
+                android:onClick="RollDice"
+                app:srcCompat="@drawable/dice6"
+                tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:id="@+id/iv_d5"
+                android:layout_width="118dp"
+                android:layout_height="110dp"
+                android:contentDescription="@string/dice_5"
+                android:onClick="RollDice"
+                app:srcCompat="@drawable/dice5"
+                tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck" />
+
+            <ImageView
+                android:id="@+id/iv_d20"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/dice_20"
+                android:onClick="RollDice"
+                app:srcCompat="@drawable/dice20"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_d10"
+                android:layout_width="112dp"
+                android:layout_height="109dp"
+                android:contentDescription="@string/dice_10"
+                android:onClick="RollDice"
+                app:srcCompat="@drawable/dice10"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/iv_d12"
+                android:layout_width="106dp"
+                android:layout_height="111dp"
+                android:contentDescription="@string/dice_12"
+                android:onClick="RollDice"
+                app:srcCompat="@drawable/dice20"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/iv_d8"
+                android:layout_width="112dp"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/dice_8"
+                android:onClick="RollDice"
+                app:srcCompat="@drawable/dice8"
+                tools:ignore="MissingConstraints" />
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

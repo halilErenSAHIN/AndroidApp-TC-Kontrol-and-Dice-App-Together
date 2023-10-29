@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TekrarMyApp</string>
+    <string name="kontrol_et">Kontrol Et</string>
+    <string name="tc_no_giriniz">TC No giriniz</string>
+    <string name="tckn_kontrol">TCKN Kontrol</string>
+    <string name="tckn_kontrol0">TCKN Kontrol</string>
+    <string name="todo">TODO</string>
+    <string name="todo0">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="dice6">dice6</string>
+    <string name="dice_10">dice 10</string>
+    <string name="dice_12">dice 12</string>
+    <string name="dice_20">dice 20</string>
+    <string name="dice_5">dice 5</string>
+    <string name="dice_6">dice 6</string>
+    <string name="dice_8">dice 8</string>
+</resources>
